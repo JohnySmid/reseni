@@ -18,6 +18,7 @@
 #define byte unsigned char
 
 
+int FileOpen() {}
 
 int interactive() { 
   char pole[80];
