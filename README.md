@@ -2,7 +2,7 @@
 
 ## task01
 
-Zatím nic -> hotová a funkční
+Zatím nic -> hotová, čeká na kontrolu
 
 ## task02
 
@@ -14,4 +14,4 @@ Příkazy jsou bitové operace. Pro převod lsb -> msb převádíme např. `0100
 
 ## task03
 
-Zcela chybí testování parametrů programu
+Zcela chybí testování parametrů programu -> rozpracovaný začátek
