@@ -2,7 +2,7 @@
 
 ## task01
 
-Zatím nic
+Zatím nic -> hotová a funkční
 
 ## task02
 
