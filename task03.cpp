@@ -11,49 +11,50 @@
     task03 -v 13 4 // should print "sum of 2 arguments is 17"
 */
 
-#include <cstdio>
-#include <cstring>
-#include <iostream>
-#include <fstream>
-#include <string>
-using namespace std;
+#include<cstdio>
+#include<string.h>
+#include <cstdlib>
+
+#define byte unsigned char
 
 
 
+int interactive() { 
+  char pole[80];
+  int input;
+  int vysledek = 0;
 
-int main(int argc, char* argv[]) {
-   
-char stringa [5];
-  printf ("cislo: ");
-  gets (stringa);     // warning: unsafe (see fgets instead)
-  ofstream myfile;
-  myfile.open ("data.txt");
-  myfile << stringa;
-  myfile.close();
-  
-  
-  
 
-  //cteni z txt souboru pomoci loop C#
-   string array[5]; // creates array to hold names
-    short loop=0; //short for loop for input
-    string line; //this will contain the data read from the file
-    ifstream myfile1 ("data.txt"); //opening the file.
-    if (myfile1.is_open()) //if the file is open
-    {
-        while (! myfile1.eof() ) //while the end of file is NOT reached
-        {
-            getline (myfile1,line); //get one line from the file
-            array[loop] = line;
-            cout << array[loop] << endl; //and output it
-            loop++;
-        }
-        myfile1.close(); //closing the file
-    }
-    else cout << "Unable to open file"; //if the file is not open output
-    system("PAUSE");
-
+  while (true) {                              //stále dokola se provádí
+    fgets (pole,80,stdin);                    //dostaneme string z char
     
-  return 0;
+    if (pole[0] != '\n') {                   //pokud nestiskneme enter provedeme sscanf
+      sscanf(pole,"%d",&input);
+      vysledek += input;
+    
+    } else {
+      return 0;
+    }
+  }
+
+return vysledek;
+}
+
+
+
+int main(int argc, char* argv[]) { 
+for (int a = 1; a < argc; a++ ) {
   
+  if (strcmp(argv[a],"-i") == 0){
+        }
+
+  if (strcmp(argv[a],"-v") == 0){
+        }
+
+  if (strcmp(argv[a],"-f") == 0){
+        }
+
+}
+
+
 }
