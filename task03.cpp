@@ -18,7 +18,10 @@
 #define byte unsigned char
 
 
-int FileOpen() {}
+int FileOpen() {
+/*FILE* fd;
+fd = fopen(nazevSouboru, "r");
+}*/
 
 int interactive() { 
   char pole[80];
