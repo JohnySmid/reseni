@@ -15,3 +15,7 @@ Příkazy jsou bitové operace. Pro převod lsb -> msb převádíme např. `0100
 ## task03
 
 Zcela chybí testování parametrů programu -> rozpracovaný začátek
+
+## task04
+
+Zatím nic
