@@ -20,3 +20,11 @@ Zcela chybí testování parametrů programu -> rozpracovaný začátek
 ## task04
 
 Hotový
+
+## task05
+
+Hotový
+
+## task07
+
+Nevím
